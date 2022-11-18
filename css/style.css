@@ -51,3 +51,9 @@ a {
 .li3, .li6 {
     color: green;
 }
+
+/* section2  */
+
+.container2 {
+    display: flex;
+}
