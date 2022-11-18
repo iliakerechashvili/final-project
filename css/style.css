@@ -12,13 +12,14 @@ body {
 
 ul {
     display: flex;
-    margin: 10px;
+    margin: 20px;
     font-size: 20px;
     justify-content: center;
     flex-flow: row wrap;
 }
-ul > li {
+a {
     margin: 10px;
+    font-family: 'Calligraffitti', cursive;;
 }
 .rasta1 {
     animation: anime 7s linear infinite;
@@ -44,18 +45,9 @@ ul > li {
 .li1, .li4 {
     color: red;
 }
-.li2 {
+.li2, .li5 {
     color: yellow;
 }
-.li3 {
-    color: green;
-}
-/* .li4 {
-    color: red;
-} */
-.li5 {
-    color: yellow;
-}
-.li6 {
+.li3, .li6 {
     color: green;
 }
