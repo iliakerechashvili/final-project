@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+.container {
+    width: 1170px;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: red;
+}
+
+ul {
+    display: flex;
+    margin: 10px;
+    font-size: 20px;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+ul > li {
+    margin: 10px;
+}
+.rasta1 {
+    animation: anime 7s linear infinite;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    border: 1px black solid;
+    border-radius: 50%;
+}
+@keyframes anime {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(160deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+.li1, .li4 {
+    color: red;
+}
+.li2 {
+    color: yellow;
+}
+.li3 {
+    color: green;
+}
+/* .li4 {
+    color: red;
+} */
+.li5 {
+    color: yellow;
+}
+.li6 {
+    color: green;
+}
